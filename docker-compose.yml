@@ -10,8 +10,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=queue_db
-      - MYSQL_USER=skeelo
-      - MYSQL_PASSWORD=skeelo
+      - MYSQL_USER=queue
+      - MYSQL_PASSWORD=queue
     volumes:
       - ./init.db:/docker-entrypoint-initdb.d
       - db:/var/lib/mysql

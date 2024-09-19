@@ -5,8 +5,7 @@ CREATE TABLE IF NOT EXISTS messages (
   payload json not null,
   status varchar(100) default 'create'  not null,
   queue_name varchar(255) not null,
-  scheduled_at timestamp not null,
-  scheduled_at_date_time datetime not null,
+  scheduled_at datetime not null,
   created_at     datetime     default CURRENT_TIMESTAMP not null,
   updated_at     datetime     null
 );

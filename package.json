@@ -1,0 +1,29 @@
+{
+  "name": "message-queue-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "insert": "node ./src/scripts/insert-message.js",
+    "core": "node ./src/core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreazo2016/message-queue-with-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreazo2016/message-queue-with-mysql/issues"
+  },
+  "homepage": "https://github.com/Andreazo2016/message-queue-with-mysql#readme",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.1"
+  }
+}
